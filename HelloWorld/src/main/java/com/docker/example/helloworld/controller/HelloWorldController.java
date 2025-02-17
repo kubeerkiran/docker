@@ -10,6 +10,7 @@ public class HelloWorldController {
 
     @GetMapping("message")
     public String getMessage() {
+        System.out.println("====== HelloWorldController::getMessage ======");
         return "HelloWorld!";
     }
 }
